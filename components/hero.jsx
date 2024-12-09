@@ -41,13 +41,13 @@ const ProductDetails = () => (
     <div className="flex border-b items-center justify-between px-5">
       <div className="flex items-center gap-8">
         <span className="flex items-center gap-4 py-6">
-          <Image src={scale} />
+          <Image src={scale} alt=""/>
           <p>
             20<sup>cm</sup>
           </p>
         </span>
         <span className="flex items-center gap-4 py-6">
-          <Image src={circle} />
+          <Image src={circle} alt=""/>
           <p>
             50<sup>cm</sup>
           </p>

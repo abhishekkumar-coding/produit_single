@@ -69,7 +69,7 @@ function SubscribeSection() {
           </h1>
           <p className="text-gray-600 mb-6 text-xl">
             Office ipsum you must be muted. Synergize helicopter prioritize
-            anyway job due harvest most opportunity didn't. Yet busy any meeting
+            anyway job due harvest most opportunity didn&apos;t. Yet busy any meeting
             shark light marginalised 4-blocker message. Productize corporate
             nail caught synergy highlights lunch. Company another pushback items
             dear or any.
