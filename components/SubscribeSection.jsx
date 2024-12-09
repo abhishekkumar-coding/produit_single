@@ -65,7 +65,7 @@ function SubscribeSection() {
         {/* Right Content */}
         <div className="w-[800px] h-[300px] pl-8 bg-[#FFF3F9] p-6 rounded-xl">
           <h1 className="text-2xl font-bold mb-4">
-            S’inscrire & économiser <span className="text-[#5CD2DD]">10%</span>
+            S&rsquo;inscrire & économiser <span className="text-[#5CD2DD]">10%</span>
           </h1>
           <p className="text-gray-600 mb-6 text-xl">
             Office ipsum you must be muted. Synergize helicopter prioritize
