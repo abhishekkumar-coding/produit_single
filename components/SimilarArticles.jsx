@@ -19,15 +19,15 @@ function SimilarArticles() {
   };
 
   return (
-    <div className="relative p-8">
+    <div id="art_similaries" className="relative p-8">
       <h1 className="text-3xl mb-8">Articles similaires</h1>
-      <div className="relative flex items-center">
+      <div  className="relative flex items-center">
         <FaArrowLeft
           onClick={scrollLeft}
           className="absolute left-[-30] z-10 text-[64px] p-4 text-white bg-[#5CD2DD] cursor-pointer"
         />
 
-        <div
+        <div id="image_conatiner"
           ref={containerRef}
           className="flex gap-6 overflow-hidden scroll-smooth no-scrollbar"
         >

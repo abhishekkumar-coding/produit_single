@@ -20,7 +20,7 @@ function ProductsInterest() {
   };
 
   return (
-    <div className="relative my-6 p-4">
+    <div id="productinterest-container" className="relative my-6 p-4">
       <h1 className="text-[35px] mb-6 ml-5">Ces produits pourraient vous intéresser</h1>
       <div className="flex items-center gap-4">
         {/* Left Arrow */}
@@ -31,6 +31,7 @@ function ProductsInterest() {
 
         {/* Image Container */}
         <div
+        id="productinterest"
           ref={containerRef}
           className="flex gap-4 overflow-x-hidden overflow-y-hidden scrollbar-hide w-[98%] mx-auto"
         >

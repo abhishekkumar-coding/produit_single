@@ -9,7 +9,7 @@ import Image from "next/image";
 
 function SubscribeSection() {
   return (
-    <div className="relative w-full h-[567px] bg-gradient-to-b from-[#ffdfef] to-[#FFFFFF] p-6 mb-32">
+    <div id="subscription_container" className="relative w-full h-[567px] bg-gradient-to-b from-[#ffdfef] to-[#FFFFFF] p-6 mb-32">
 
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold">
@@ -20,7 +20,7 @@ function SubscribeSection() {
         </h3>
       </div>
 
-      <div className="flex justify-center items-center my-16">
+      <div id="subscription" className="flex justify-center items-center my-16">
         <div className="text-center flex flex-col items-center justify-center">
           <Image src={groupe1} alt="Livraison &amp; Reprise" />
           <h1 className="font-bold text-xl mt-2">Livraison &amp; Reprise</h1>
@@ -49,7 +49,7 @@ function SubscribeSection() {
         </div>
       </div>
 
-      <div className="mt-[200px] flex items-center justify-between">
+      <div id="image_container" className="mt-[200px] flex items-center justify-between">
         <div className="w-[700px] h-[300px] flex justify-center rounded-xl">
           <Image
             src={buffet}

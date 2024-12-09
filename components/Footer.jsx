@@ -7,8 +7,8 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className=" relative w-full border-t text-white py-12 mt-64 flex items-center justify-between">
-      <div className="w-[70%] ml-10 flex flex-wrap justify-between items-center px-4">
+    <div id="footer" className=" relative w-full border-t text-white py-12 mt-64 flex items-center justify-between">
+      <div id="links_container" className="w-[70%] ml-10 flex flex-wrap justify-between items-center px-4">
         <div className="flex flex-col items-start space-y-4">
           <Image src={logo} alt="Company Logo" className="w-32 h-auto" />
         </div>
@@ -34,7 +34,7 @@ function Footer() {
           <h3 className="text-xl">Mot de passe oublié</h3>
         </div>
       </div>
-      <div className="absolute right-10 top-5 mx-auto flex flex-col items-center px-4 mt-8">
+      <div id="social" className="absolute right-10 top-5 mx-auto flex flex-col items-center px-4 mt-8">
         <h1 className="text-lg text-black font-bold mb-4">NOUS SUIVRE</h1>
         <div className="flex space-x-4">
           <a

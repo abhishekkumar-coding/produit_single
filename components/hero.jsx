@@ -25,7 +25,9 @@ const ProductDetails = () => (
   <div>
     <div className="border-b flex items-center justify-between">
       <div className="border-b">
-        <h1 className="text-[30px]">Cheese – appareil &agrave; raclette 1/2 roue</h1>
+        <h1 className="text-[30px]">
+          Cheese – appareil &agrave; raclette 1/2 roue
+        </h1>
         <span className="flex items-center gap-3">
           <h1 className="text-[30px]">39,50&eur;</h1>
           <p className="text-gray-600 text-[14px]">/pi&egrave;ce</p>
@@ -86,7 +88,7 @@ function Hero() {
       </div>
 
       {/* HERO SECTIONS DIV */}
-      <div className="flex items-center justify-around">
+      <div id="hero" className="flex items-center justify-around">
         {/* LEFT SIDE DIV */}
         <div>
           <div className="relative flex flex-col items-center justify-center w-[760px] h-[650px] bg-[#F8F6F4] rounded-3xl">
@@ -99,15 +101,17 @@ function Hero() {
             <h1 className="text-3xl my-5">Description produit</h1>
             <p className="text-[1vw]">
               Festi vous propose &agrave; la location un/une &quot;Jewel – grand
-              couteau/10pc&quot; pour votre &eacute;venement et ce d&egrave;s 0,35 &euro; /
-              pi&egrave;ce (HTVA). Que ce soit pour votre mariage, une f&ecirc;te
-              d&apos;anniversaire ou du personnel, ce produit a fait l&apos;objet
-              d&apos;une s&eacute;lection rigoureuse par notre &eacute;quipe. Il est en
-              location chez nous sous la r&eacute;f&eacute;rence &quot;VAJGC&quot;. Nous sommes
-              &agrave; votre disposition pour que les &eacute;v&eacute;nements de nos
-              clients, m&ecirc;me en last-minute, soient toujours une r&eacute;ussite.
-              Vous pourrez trouver tout une s&eacute;rie d&apos;autres produits &agrave; louer
-              de ce type dans la cat&eacute;gorie &quot;Art de la Table&quot;.
+              couteau/10pc&quot; pour votre &eacute;venement et ce d&egrave;s
+              0,35 &euro; / pi&egrave;ce (HTVA). Que ce soit pour votre mariage,
+              une f&ecirc;te d&apos;anniversaire ou du personnel, ce produit a
+              fait l&apos;objet d&apos;une s&eacute;lection rigoureuse par notre
+              &eacute;quipe. Il est en location chez nous sous la
+              r&eacute;f&eacute;rence &quot;VAJGC&quot;. Nous sommes &agrave;
+              votre disposition pour que les &eacute;v&eacute;nements de nos
+              clients, m&ecirc;me en last-minute, soient toujours une
+              r&eacute;ussite. Vous pourrez trouver tout une s&eacute;rie
+              d&apos;autres produits &agrave; louer de ce type dans la
+              cat&eacute;gorie &quot;Art de la Table&quot;.
             </p>
           </div>
         </div>

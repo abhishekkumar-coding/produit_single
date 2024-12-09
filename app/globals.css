@@ -23,10 +23,84 @@ body {
   overflow-x: scroll;
 }
 
-
 /* FOR NAVBAR  */
 
-#menu{
-  display: none;
+@media (max-width: 768px) {
+  nav {
+    max-width: 700px;
+  }
+  #navbar {
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+  #hero {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  #art_similaries {
+    max-width: 700px;
+  }
+  #image_conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #productinterest-container {
+    max-width: 700px;
+  }
+  #productinterest {
+    max-width: 700px;
+  }
+
+  #subscription_container {
+    max-width: 700px;
+    height: auto;
+  }
+  #subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+  }
+  #subscription hr {
+    transform: rotate(90deg);
+    width: 10%;
+  }
+  #subscription_container #image_container {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer {
+    max-width: 700px;
+    position: absolute;
+    bottom: -15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #footer #links_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+  }
+  #footer #social {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    margin-bottom: 20px;
+  }
 }
 
+#menu {
+  display: none;
+}
