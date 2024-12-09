@@ -58,7 +58,7 @@ function SubscribeSection() {
           />
         </div>
 
-        <div className="w-[800px] h-[300px] pl-8 bg-[#FFF3F9] p-6 rounded-xl">
+        <div id="do_subscribe" className="w-[800px] h-[300px] pl-8 bg-[#FFF3F9] p-6 rounded-xl">
           <h1 className="text-2xl font-bold mb-4">
             S&rsquo;inscrire &amp; &eacute;conomiser{" "}
             <span className="text-[#5CD2DD]">10%</span>

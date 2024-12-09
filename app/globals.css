@@ -25,7 +25,10 @@ body {
 
 /* FOR NAVBAR  */
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
+  body{
+    max-width: 700px;
+  }
   nav {
     max-width: 700px;
   }
@@ -39,9 +42,9 @@ body {
     max-width: 700px;
     display: flex;
     flex-direction: column;
-    justify-self: center;
     align-items: center;
-    overflow: hidden;
+    justify-content: center;
+    padding: 5px;
   }
   #art_similaries {
     max-width: 700px;
@@ -68,6 +71,9 @@ body {
     align-items: center;
     justify-content: center;
     row-gap: 30px;
+  }
+  #do_subscribe{
+    max-width: 700px;
   }
   #subscription hr {
     transform: rotate(90deg);

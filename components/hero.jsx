@@ -80,7 +80,7 @@ const ProductDetails = () => (
 
 function Hero() {
   return (
-    <div>
+    <div className="">
       <div className="flex items-center gap-4 my-6 ml-4 mt-48">
         <h2>Home </h2>
         <div className="w-[5px] h-[5px] bg-[#9C9C9C] rounded-full"></div>
